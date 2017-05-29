@@ -12,12 +12,12 @@ int main(){
 
 	scanf("%[^\n]s", str);
 
-	tok = strtok(str," \t");
+	tok = strtok(str," ");
 
 	while(tok != NULL){
 		cnt++;
 		
-		tok = strtok(NULL, " \t");
+		tok = strtok(NULL, " ");
 		
 	}
 	printf("%d", cnt);
